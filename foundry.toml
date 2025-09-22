@@ -1,0 +1,23 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib", "node_modules"]
+via_ir = true
+optimizer = true
+optimizer_runs = 200
+# Usá .env para esto: PRIVATE_KEY=0x...
+private_key = "${PRIVATE_KEY}"
+
+remappings = [
+  
+  "@openzeppelin/=lib/openzeppelin-contracts/",
+   "@cryptoalgebra/integral-core/=lib/Algebra/src/core",
+  "@cryptoalgebra/integral-periphery/=lib/Algebra/src/periphery/",
+  "hookmate/=lib/hookmate/src/"
+]
+
+[rpc_endpoints]
+sepolia = "https://eth-sepolia.g.alchemy.com/v2/"
+reactive = "https://lasna-rpc.rnk.dev/"
+mainnet = "https://eth-mainnet.g.alchemy.com/v2/Ddiwbns2aYw5ZiPfwQJ-SM2Gw_DQwe1a"
+reactive_mainnet = "https://mainnet-rpc.rnk.dev/"
