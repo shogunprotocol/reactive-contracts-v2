@@ -19,5 +19,5 @@ remappings = [
 [rpc_endpoints]
 sepolia = "https://eth-sepolia.g.alchemy.com/v2/"
 reactive = "https://lasna-rpc.rnk.dev/"
-mainnet = "https://eth-mainnet.g.alchemy.com/v2/Ddiwbns2aYw5ZiPfwQJ-SM2Gw_DQwe1a"
+mainnet = "https://eth-mainnet.g.alchemy.com/v2/"
 reactive_mainnet = "https://mainnet-rpc.rnk.dev/"
