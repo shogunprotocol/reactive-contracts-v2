@@ -221,10 +221,8 @@ bytes memory payload = abi.encodeWithSignature("autoEmergencyExit()"); // Change
 
 - **Hook Contract see events**: https://etherscan.io/address/0x52c73a3EDC6E3D82ED675533144fd28886DccAC0
 
-- **LiquidityChangeReactive**: [`0x6428fbef03c165f7f6b918364dd824d8ee1fd242`](https://reactscan.net/address/0x7C65F77a4EbEa3D56368A73A12234bB4384ACB28)
-
 ### Reactive Mainnet
 
----
+- **LiquidityChangeReactive**: [`0x6428fbef03c165f7f6b918364dd824d8ee1fd242`](https://reactscan.net/address/0x7C65F77a4EbEa3D56368A73A12234bB4384ACB28)
 
 **System created for automatic protection against large liquidity movements in Uniswap V4**
